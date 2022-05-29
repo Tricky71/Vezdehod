@@ -1,0 +1,115 @@
+.top-line {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: $size;
+    border-bottom: 1px solid rgba(#fff, $border-opacity);
+    background-color: $deep;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @include media-breakpoint-down(sm) {
+        height: $size-sm;
+    }
+}
+
+.top-line__logo {
+    flex: 0 0 200px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: .5em;
+    @include media-breakpoint-down(sm) {
+        flex: 1 0 0;
+    }
+}
+
+.top-line__decor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        & span {
+            width: 50px;
+            height: 1px;
+            background-color: rgba(#fff, $border-opacity*2);
+        }
+    @include media-breakpoint-down(md) {
+       display: none;
+    }  
+}
+
+.top-line__contacts {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    @include media-breakpoint-down(sm) {
+        flex: 1 0 0;
+    }
+}
+
+.top-line__contacts-item {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 30px;
+    border-right: 1px solid rgba(#fff, $border-opacity);
+        &:last-child {
+           border: none;
+        }
+    @include media-breakpoint-down(sm) {
+        border: none;
+    } 
+}
+
+.top-line__contacts-item  b  {
+    margin-right: 7px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: .4em;
+    color: rgba(#fff, $border-opacity*2);
+}
+
+.top-line__contacts-item span {
+    font-family: roboto-vh;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: .4em;
+    white-space: nowrap;
+}
+
+.top-line__contacts-item--adress {
+    @include media-breakpoint-down(sm) {
+        display: none;
+    }
+}
+
+.top-line__contacts-item--tel span {
+    color: $accent;
+}
+
+.top-line__contacts-item--adress span {
+    color: rgba(#fff, .75);
+}
+        
+.top-line__menu {
+    flex: 0 0 200px;
+    height: $size;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    @include media-breakpoint-down(sm) {
+        height: $size-sm;
+    }
+    @include media-breakpoint-down(md) {
+        flex: 1 0 0;
+    }
+}
+

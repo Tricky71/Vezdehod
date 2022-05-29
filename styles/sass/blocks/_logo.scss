@@ -1,0 +1,22 @@
+.logo:hover, .logo:focus {
+        color: #fff;
+        text-decoration: none;
+}
+
+.logo__image {
+    width: $size;
+    height: $size;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include media-breakpoint-down(sm) {
+        width: $size-sm;
+        height: $size-sm;
+    }
+}
+
+.logo__title {
+    @include media-breakpoint-down(sm) {
+        display: none;
+    }
+}

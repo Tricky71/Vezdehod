@@ -1,0 +1,18 @@
+
+.menu__button {
+    display: block;
+    width: $size;
+    height: $size;
+    background-color: #3c3c3c;
+    background-image: url(../images/dist/bars-solid.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: background .25s ease-out;
+        &:hover {
+           background-color: $accent;
+        }
+    @include media-breakpoint-down(sm) {
+        width: $size-sm;
+        height: $size-sm;
+    }
+}

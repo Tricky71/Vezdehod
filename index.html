@@ -1,0 +1,180 @@
+<!-- #set var="title" value="Cool Slider" -->
+<!-- #include virtual="/parts/header.html" -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>Вездеход</title>
+	<meta name="description" content="Startup HTML template OptimizedHTML 5">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="icon" href="images/favicon.png">
+	<meta property="og:image" content="images/dist/preview.jpg">
+	
+	<link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body>
+
+<div id="cursor"></div>
+
+<header class="home-header">
+	<div class="home-header__top-line top-line">
+		<a href="#" class="top-line__logo logo">
+			<div class="logo__image">
+				<img class="logo__img" src="images/dist/logo.svg" alt="Вездеход">
+			</div>
+			<span class="logo__title">Вездеход</span>
+		</a>
+		<div class="top-line__decor top-line__decor--left">
+			<span></span>
+		</div>
+		<ul class="top-line__contacts">
+            <li class="top-line__contacts-item top-line__contacts-item--tel">
+				<b>Телефон:</b><span>555-65-34</span>
+			</li>
+			<li class="top-line__contacts-item top-line__contacts-item--adress">
+				<b>Адрес:</b><span>ул. Московская, 35</span>
+			</li>
+		</ul>
+		<div class="top-line__decor top-line__decor--right">
+			<span></span>
+		</div>
+		<div class="top-line__menu menu">
+			<a href="#" class="menu__button"></a>
+		</div>
+    </div>
+	<div class="home-header__content">
+		<div class="home-header__content-aside aside">
+			<div class="aside__decor"></div>
+			<ul class="aside__social">
+				<li class="aside__social-item aside__social-item">
+					<a href="" class="aside__social-link social-link social-link--insta">
+						<img src="images/dist/soc/instagram-brands.svg" width= "14px" height= "14px" alt= "Instagram">
+					</a>
+				</li>
+				<li class="aside__social-item aside__social-item">
+					<a href="" class="aside__social-link social-link social-link--vk">
+						<img src="images/dist/soc/vk-brands.svg" width= "14px" height= "14px" fill= "rgba(#fff, $border-opacity*2)" alt= "В контакте">
+					</a>
+				</li>
+				<li class="aside__social-item aside__social-item">
+					<a href="" class="aside__social-link social-link social-link--fb">
+						<img src="images/dist/soc/facebook-f-brands.svg" width= "14px" height= "14px" alt= "Facebook">
+					</a>
+				</li>
+				<li class="aside__social-item aside__social-item">
+					<a href="" class="aside__social-link social-link social-link--twitter">
+						<img src="images/dist/soc/twitter-brands.svg" width= "14px" height= "14px" alt= "Twitter">
+					</a>
+				</li>
+			</ul>
+			<div class="aside__share"></div>
+		</div>
+		<div class="home-header__content-sliders sliders">
+			<div class="sliders__bottom">
+				<ul class="sliders__social">
+                    <li class="sliders__social-item">
+						<a href="" class="sliders__social-link social-link social-link--vk">
+							<img src="images/dist/soc/vk-brands.svg" width= "14px" height= "14px" fill= "rgba(#fff, $border-opacity*2)" alt= "В контакте">
+					    </a>
+						
+					</li>
+					<li class="sliders__social-item">
+						<a href="" class="sliders__social-link social-link social-link--fb">
+							<img src="images/dist/soc/facebook-f-brands.svg" width= "14px" height= "14px" alt= "Facebook">
+						</a>
+					</li>
+					<li class="sliders__social-item">
+						<a href="" class="sliders__social-link social-link social-link--vk">
+                            <img src="images/dist/soc/vk-brands.svg" width= "14px" height= "14px" fill= "rgba(#fff, $border-opacity*2)" alt= "В контакте">
+						</a>
+					</li>
+				</ul>
+				<div class="sliders__dots">
+					<div class="swiper-pagination"></div>
+				</div>
+				<div class="sliders__scroll">
+					<div class="swiper-scrollbar"></div>
+				</div>
+				<div class="sliders__nav">
+					<div class="sliders__nav-wrapper">
+						<div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+					</div>
+				</div>
+			</div>
+			<div class="sliders__count">
+				<span class="sliders__count-current">01</span> / <span class="sliders__count-total"><span>
+			</div>
+			<div class="sliders__pagination-current"><span class="sliders__pagination-current-num">01</span><span class="sliders__pagination-dot">.</span>
+			</div>
+			<div class="sliders__gear"></div>
+			<div class="sliders__container">
+				<div class="sliders__slider-text slider-text">
+					<div class="swiper-wrapper">
+						<div class="slider-text__slide swiper-slide">
+							<div class="slider-text__content">
+								<h2 class="slider-text__title">Подбор внедорожника <span>на любой</span> случай</h2>
+								<p class="slider-text__info">
+									Выберем и подберём для вас любой внедорожник в кратчайшие сроки, с учётом всех ваших пожеланий и всех необходимых потребностей.
+								</p>
+								<button class="button slider-text__button" data-micromodal-open= "modal-1">
+									<span>Оставить заявку</span>
+								</button>
+							</div>
+						</div>
+						<div class="slider-text__slide swiper-slide">
+							<div class="slider-text__content">
+								<h2 class="slider-text__title">Индивидуальный подход <span>к каждому</span> покупателю</h2>
+								<p class="slider-text__info">
+									Все автомобили мы подбираем индивидуально для каждого клиента или покупателя и с трепетом относимся к реузльтату нашей работы.
+								</p>
+								<button class="button slider-text__button" data-micromodal-open= "modal-1">
+									<span>Оставить заявку</span>
+								</button>
+							</div>
+						</div>
+						<div class="slider-text__slide swiper-slide">
+							<div class="slider-text__content">
+								<h2 class="slider-text__title">Выбор лучшей модели <span>из модельного</span> ряда</h2>
+								<p class="slider-text__info">
+									В нашем модельном ряду имеются модели сотен различных внедорожников, которые удовлетворят даже самого требовательного клиента.
+								</p>
+								<button class="button slider-text__button" data-micromodal-open= "modal-1">
+									<span>Оставить заявку</span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="sliders__slider-img slider-img swiper-container">
+					<div class="swiper-wrapper">
+						<div class="slider-img__slide swiper-slide">
+							<div class="slider-img__bg" data-swiper-parallax= "20%" style="background-image: url(images/dist/slide-images/1.jpg);"></div>
+						</div>
+						<div class="slider-img__slide swiper-slide">
+							<div class="slider-img__bg" data-swiper-parallax= "20%" style="background-image: url(images/dist/slide-images/2.jpg);"></div>
+						</div>
+						<div class="slider-img__slide swiper-slide">
+							<div class="slider-img__bg" data-swiper-parallax= "20%" style="background-image: url(images/dist/slide-images/3.jpg);"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+	<script src="js/app.min.js"></script>
+
+</body>
+</html>
+
+#include virtual="/parts/modal.html" 
+<!-- #include virtual="/parts/footer.html" -->

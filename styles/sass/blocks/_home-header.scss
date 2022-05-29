@@ -1,0 +1,39 @@
+.home-header {
+    height: 100%;
+    background-color: $deep;
+    color: #fff;
+}
+
+.home-header__top-line {
+    z-index: 15;
+}
+
+.home-header__content {
+    padding-top: $size;
+    height: 100%;
+    @include media-breakpoint-down(sm) {
+        padding-top: $size-sm;
+    }
+}
+
+.home-header__content-aside {
+    padding-top: $size;
+    width: $size;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: $dark;
+    z-index: 10;
+    @include media-breakpoint-down(sm) {
+        padding-top: $size-sm;
+        width: $size-sm;
+    }
+}
+
+.home-header__content-sliders {
+    z-index: 5;
+}
+    
+
+
+   
